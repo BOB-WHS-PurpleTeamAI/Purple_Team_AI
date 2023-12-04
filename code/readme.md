@@ -26,3 +26,7 @@ elif (num2 >= num1) and (num2 >= num3):
 else:
    largest = num3
 print(f'largest:{largest}')
+데이터셋을 학습을 위한 데이터로 변경 (oneline coding 되어있다는 가정하) 
+데이터셋에서 line별로 읽기 
+읽은 라인에서 랜덤으로 마스킹하기 마스킹한 데이터와 마스킹 하지 않은 데이터를 1개을 q a 데이터로 만들기
+
